@@ -31,8 +31,8 @@ class OroSwapBot:
         self.wallet_address = self.account.address
         
         # Router and Factory addresses (you'll need to get these from OroSwap)
-        self.router_address = None  # Will be fetched
-        self.factory_address = None  # Will be fetched
+        self.router_address = zig15jqg0hmp9n06q0as7uk3x9xkwr9k3r7yh4ww2uc0hek8zlryrgmsamk4qg  # Will be fetched
+        self.factory_address = zig15jqg0hmp9n06q0as7uk3x9xkwr9k3r7yh4ww2uc0hek8zlryrgmsamk4qg  # Will be fetched
         
         logger.info(f"Initialized bot for wallet: {self.wallet_address}")
     
